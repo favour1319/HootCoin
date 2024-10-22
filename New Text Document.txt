@@ -1,0 +1,48 @@
+<doctype html>
+<html>
+		<head>
+			<title>May Page</title>
+		</head>
+		<link rel="stylesheet" href="css/style.css">
+		<style>
+			body{
+			background-image:url('images/2.jpg');
+			background-size:cover;
+			}
+			.button:last-child{
+				border-right:none
+			}
+			
+		</style>
+		<body>
+		<main>
+			<div><br>
+				<span style="color:orange;font-size:2rem">Markets</span>
+				<img src="images/Diamond_PNG_Clipart-87006449.png" style="border-radius:12rem;height:1.3rem;margin-left:50rem">
+				<input type="text" placeholder="Search" style="color:white;margin-left:1rem;height:2.5rem;background:rgba(255,255,255,0.0);outline:none">
+				<input type="submit" style="height:2.5rem;background:orange">
+				<img src="images/schools-business-professional-studies.jpg" style="height:2rem;border-radius:2rem;width:2rem">
+			</div>
+		<form style="text-align:center"><br><br>
+			<div style="display:inline-flex">
+				<button type="submit" style="border:none;outline:none;padding:10px 16px;border-right:1px solid grey;width:20rem;background:green;height:4rem" class="button">Market cap</button>
+				<button type="submit" style="border:none;outline:none;padding:10px 16px;border-right:1px solid grey;width:10rem" class="button">M</button>
+				<button type="submit" style="border:none;outline:none;padding:10px 16px;border-right:1px solid grey;width:10rem" class="button">1</button>
+				<button type="submit" style="border:none;outline:none;padding:10px 16px;border-right:1px solid grey;width:10rem" class="button">a</button>
+			</div>
+		</form>
+		</main>
+		</body>
+		<script>
+			function fan(){
+				var x=document.getElementById('AI').value;
+				switch(x){
+				case "what's up":alert('cool');
+					break;
+				case "how can i get started":alert('Login to Cryptodealer or create an account to get started');
+					break;
+					}	
+		
+				}
+		</script>
+</html>
